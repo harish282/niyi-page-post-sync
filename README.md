@@ -1,4 +1,4 @@
-# Yishi Page Post Sync
+# Niyi Page Post Sync
 
 Sync pages and posts from this WordPress site to one or more remote WordPress sites using the WordPress REST API.
 
