@@ -52,18 +52,4 @@ Sync pages and posts from this WordPress site to one or more remote WordPress si
   }, 10, 3 );
   ```
 
-## Building / deploying
-
-`scripts/build-release-zip.sh` (adapted from the `niyi-builder` project) stages only runtime files. It never symlinks; existing deploys are replaced.
-
-```bash
-# Build ./build/niyi-page-post-sync-<version>.zip
-npm run release
-# or: bash scripts/build-release-zip.sh prod [output-dir]
-
-# Copy runtime files to wp-content/plugins/niyi-page-post-sync
-npm run release:dev
-# or: bash scripts/build-release-zip.sh dev [/custom/destination]
-```
-
 The version is read from the plugin header. `readme.txt` / `license.txt` are staged when present (for WordPress.org releases); dev-only files such as `scripts/`, `tasks.md`, `node_modules/` and `.git/` are excluded.
