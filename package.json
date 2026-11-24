@@ -1,0 +1,15 @@
+{
+  "name": "niyi-page-post-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sync WordPress pages/posts and media between sites via the REST API",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "echo 'No frontend build step; PHP/CSS/JS assets are committed.'",
+    "release": "bash scripts/build-release-zip.sh prod",
+    "release:dev": "bash scripts/build-release-zip.sh dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

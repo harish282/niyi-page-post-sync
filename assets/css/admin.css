@@ -1,0 +1,155 @@
+/* Yishi Page Post Sync - admin styles */
+
+.niyi-pps-cell {
+	line-height: 1.8;
+}
+
+.niyi-pps-cell-row {
+	white-space: nowrap;
+}
+
+.niyi-pps-cell-row .dashicons {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+	vertical-align: -2px;
+}
+
+.niyi-pps-cell-row .dashicons-yes {
+	color: #46b450;
+}
+
+.niyi-pps-cell-row .dashicons-no {
+	color: #dc3232;
+}
+
+.niyi-pps-cell-row small {
+	color: #777;
+}
+
+.niyi-pps-cell-row .niyi-pps-warning {
+	color: #dba617;
+	cursor: help;
+}
+
+.niyi-sync-single {
+	margin-top: 4px;
+}
+
+/* Receiver settings screen */
+.niyi-pps-form {
+	max-width: 760px;
+	margin-bottom: 2em;
+}
+
+.niyi-pps-status {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.niyi-pps-status.active {
+	background: #e5f5e8;
+	color: #226b2c;
+}
+
+.niyi-pps-status.inactive {
+	background: #f5e5e5;
+	color: #8a2424;
+}
+
+.niyi-pps-test-result {
+	display: inline-block;
+	margin-left: 6px;
+	font-size: 12px;
+}
+
+.niyi-pps-test-result.ok {
+	color: #226b2c;
+}
+
+.niyi-pps-test-result.err {
+	color: #b32d2e;
+}
+
+/* Receiver chooser modal */
+.niyi-pps-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.45);
+	z-index: 99980;
+}
+
+.niyi-pps-modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 460px;
+	max-width: 92vw;
+	background: #fff;
+	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	padding: 20px 24px;
+	z-index: 99981;
+}
+
+.niyi-pps-modal h2 {
+	margin: 0 0 12px;
+	font-size: 18px;
+}
+
+.niyi-pps-receiver-list {
+	max-height: 280px;
+	overflow-y: auto;
+	margin-bottom: 16px;
+}
+
+.niyi-pps-receiver-option {
+	display: block;
+	padding: 6px 4px;
+	border-bottom: 1px solid #f0f0f0;
+	cursor: pointer;
+}
+
+.niyi-pps-modal-actions {
+	margin: 0;
+}
+
+/* Shortcode compatibility notes in the receiver chooser */
+.niyi-pps-compat {
+	max-height: 180px;
+	overflow-y: auto;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	border-left: 4px solid #dba617;
+	background: #fffbe6;
+	font-size: 12px;
+}
+
+.niyi-pps-compat:empty {
+	display: none;
+}
+
+.niyi-pps-compat-checking {
+	margin: 0;
+	color: #646970;
+}
+
+.niyi-pps-compat-title {
+	margin: 0 0 4px;
+}
+
+.niyi-pps-compat-list {
+	margin: 0;
+	padding-left: 18px;
+}
+
+.niyi-pps-compat-list li {
+	margin-bottom: 4px;
+}

@@ -1,0 +1,6 @@
+/build/
+/node_modules/
+*.zip
+.DS_Store
+.idea/
+.vscode/
